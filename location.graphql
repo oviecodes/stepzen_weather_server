@@ -24,8 +24,6 @@ type Query {
     )
 }
 
-#'https://api.geoapify.com/v1/ipinfo?&apiKey=bb17687524604657a6414e09771254b5'
-
 type Query {
     locationByIP(ip: String!): LocationData
     @rest(
