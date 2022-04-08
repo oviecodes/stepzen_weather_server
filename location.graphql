@@ -24,6 +24,7 @@ type Query {
     )
 }
 
+
 type Query {
     locationByIP(ip: String!): LocationData
     @rest(
